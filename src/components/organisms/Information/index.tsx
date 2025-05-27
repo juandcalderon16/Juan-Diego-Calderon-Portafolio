@@ -6,9 +6,9 @@ const Index = () => (
     {/* Foto y nombre */}
     <div className="flex flex-col items-center gap-2 w-full">
       <img
-        src="/Hero1.png"
+        src="/Hero1.jpg"
         alt="Juan Diego Calderón"
-        className="w-24 h-24 rounded-full object-cover border-4 border-primary shadow mb-2"
+        className="w-24 h-24 rounded-full object-cover border-4 border-primary shadow mb-2 scale-110"
       />
       <div className="flex items-center gap-2">
         <FaUser className="text-primary text-xl" />
@@ -31,7 +31,7 @@ const Index = () => (
           href="mailto:juan.diego@email.com"
           className="text-black hover:text-blue-600 transition-colors"
         >
-          juan.diego@email.com
+          juand.calderon@udea.edu.co
         </a>
       </div>
       <div className="flex items-center gap-3">
@@ -40,7 +40,7 @@ const Index = () => (
           href="tel:+573001234567"
           className="text-black hover:text-blue-600 transition-colors"
         >
-          +57 300 123 4567
+          +57 350 260 7861
         </a>
       </div>
       <div className="flex items-center gap-3">

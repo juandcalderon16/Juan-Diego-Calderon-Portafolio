@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { SubTitle, TextTitle } from '@/components/atoms/Titles';
+import {  TextTitle } from '@/components/atoms/Titles';
+import TitlePortafolio from '@/components/molecules/TitlePortafolio/index';
 
 const projects = [
   {
@@ -32,8 +33,11 @@ const Index = () => {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
+    <div>
+      <div className="flex flex-col items-center gap-7 mb-6 w-[970px]">
+        <TitlePortafolio />
+      </div>
     <div className="bg-white rounded-lg shadow p-6 w-[970px] mb-6">
-      <SubTitle title="Portafolio" />
       <div className="mt-4 overflow-x-auto">
         <div className="flex flex-row gap-6 w-max">
           {projects.map((project, idx) => (
@@ -101,6 +105,7 @@ const Index = () => {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 };

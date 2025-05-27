@@ -7,7 +7,7 @@ const Index = () => {
       <ul className="flex flex-col items-center gap-6 mt-8">
         <li>
           <a
-            href="https://github.com/tu_usuario"
+            href="https://github.com/juandcalderon16"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-blue-600 text-2xl transition-colors"
@@ -18,7 +18,7 @@ const Index = () => {
         </li>
         <li>
           <a
-            href="https://linkedin.com/in/tu_usuario"
+            href="https://linkedin.com/in/juan-diego-calderon-bermeo-77467729a/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-blue-600 text-2xl transition-colors"
@@ -29,7 +29,7 @@ const Index = () => {
         </li>
         <li>
           <a
-            href="https://twitter.com/tu_usuario"
+            href="https://x.com/CalderonBe69607"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-blue-600 text-2xl transition-colors"

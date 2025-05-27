@@ -7,9 +7,9 @@ const Index = () => {
             <HeroMolecule />
             <div className="flex justify-center items-center h-full">
                 <img
-                    src="/Hero1.png"
+                    src="/Hero1.jpg"
                     alt="hero1"
-                    className="w-60 h-60 object-cover rounded-full border-4 border-gray-200 shadow"
+                    className="w-60 h-60 object-cover rounded-full border-4 border-gray-200 shadow scale-110"
                 />
             </div>
         </div>
