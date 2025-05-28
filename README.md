@@ -1,40 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Portafolio Juan Diego Calderón
 
-## Getting Started
+Este proyecto es un portafolio web personal desarrollado con **Next.js** y **Tailwind CSS**. Aquí muestro mis proyectos, habilidades, educación y formas de contacto, todo con un diseño moderno y responsivo.
 
-First, run the development server:
+## 🚀 Propósito
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+El objetivo de este portafolio es presentar de manera profesional mi perfil como desarrollador, permitiendo a reclutadores, colegas y visitantes conocer mis proyectos, experiencia, conocimientos y formas de contactarme.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Características
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **Sección de presentación:** Foto, nombre, contacto y breve descripción personal.
+- **Educación:** Resumen de mi formación académica y cursos relevantes.
+- **Conocimientos:** Tecnologías y herramientas que manejo.
+- **Portafolio:** Proyectos destacados, cada uno con imagen, descripción, enlaces y un modal con más detalles.
+- **Idiomas y habilidades:** Nivel de idiomas y habilidades blandas/técnicas.
+- **Footer creativo:** Animación y enlaces a redes sociales.
+- **Barra lateral:** Acceso rápido a mis redes sociales.
+- **Diseño responsivo:** Adaptado para dispositivos móviles y escritorio.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🛠️ ¿Cómo ejecutar el proyecto?
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/juandcalderon16/juan-diego-calderon-portafolio.git
+   cd juan-diego-calderon-portafolio
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Instala las dependencias:**
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
 
-## Learn More
+3. **Inicia el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Abre tu navegador en:**  
+   [http://localhost:3000](http://localhost:3000)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## 📁 Estructura del proyecto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/src/components`: Componentes reutilizables (átomos, moléculas, organismos).
+- `/src/pages`: Páginas principales del sitio.
+- `/public`: Imágenes y recursos estáticos.
 
-## Deploy on Vercel
+## 🖼️ Personalización
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Cambia tus datos personales y proyectos en los archivos correspondientes dentro de `/src/components/organisms/Information` y `/src/components/organisms/Portafolio`.
+- Puedes modificar los estilos en `tailwind.config.js` y los archivos de componentes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 📬 Contacto
+
+- **GitHub:** [juandcalderon16](https://github.com/juandcalderon16)
+- **LinkedIn:** [juan-diego-calderon-bermeo-77467729a](https://linkedin.com/in/juan-diego-calderon-bermeo-77467729a/)
+- **Twitter/X:** [@CalderonBe69607](https://x.com/CalderonBe69607)
+- **Email:** juan.diego@email.com
+
+---
+
+¡Gracias por visitar mi portafolio! 🚀
